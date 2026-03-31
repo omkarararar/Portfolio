@@ -5,7 +5,6 @@ import "./Folder.css";
 import linkedinIcon from "../../Assets/linkedin.png";
 import githubIcon from "../../Assets/github.png";
 import instagramIcon from "../../Assets/instagram.png";
-import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 // About subcomponents will be used once About content is provided
@@ -14,7 +13,6 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
         <Container className="home-content">
           <Row className="align-items-center">
             <Col md={7} className="home-header">
