@@ -5,9 +5,8 @@ import "./Folder.css";
 import linkedinIcon from "../../Assets/linkedin.png";
 import githubIcon from "../../Assets/github.png";
 import instagramIcon from "../../Assets/instagram.png";
-import Home2 from "./Home2";
+
 import Type from "./Type";
-// About subcomponents will be used once About content is provided
 
 function Home() {
   return (
@@ -59,7 +58,6 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
       {/* Social links removed per user request */}
     </section>
   );
