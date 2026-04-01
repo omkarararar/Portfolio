@@ -35,7 +35,7 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: -1 }}>
           <PixelSnow
-            color="#0e49fdff"
+            color="#ffffff"
             flakeSize={0.01}
             minFlakeSize={1.25}
             pixelResolution={200}

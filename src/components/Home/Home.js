@@ -17,7 +17,7 @@ function Home() {
           <Row className="align-items-center">
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There! <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
+                नमस्कार
               </h1>
 
               <h1 className="heading-name">
@@ -40,7 +40,7 @@ function Home() {
               }}>
                 <Folder
                   size={2.7}
-                  color="#760a85"
+                  color="#0077b6"
                   className="custom-folder"
                   items={[
                     <a href="https://www.linkedin.com/in/omkar-panchawadkar/" target="_blank" rel="noreferrer">
