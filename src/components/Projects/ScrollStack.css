@@ -1,0 +1,88 @@
+.scroll-stack-scroller {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 100px);
+  /* Fixed height for the scroller within the section */
+  overflow-y: auto;
+  overflow-x: visible;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: scroll-position;
+  /* Hide scrollbar */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scroll-stack-scroller::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.scroll-stack-scroller::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.scroll-stack-scroller::-webkit-scrollbar-thumb {
+  background: rgba(147, 77, 181, 0.5);
+  border-radius: 10px;
+}
+
+.scroll-stack-inner {
+  padding: 0vh 2rem 60vh;
+  min-height: 100%;
+}
+
+.scroll-stack-card-wrapper {
+  position: relative;
+}
+
+.scroll-stack-card {
+  transform-origin: top center;
+  will-change: transform, filter;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  min-height: 25rem;
+  width: 100%;
+  margin: 40px 0;
+  padding: 3rem;
+  border-radius: 30px;
+  box-sizing: border-box;
+  /* Improve mobile performance */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  position: relative;
+  background: rgba(25, 10, 45, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(199, 112, 240, 0.2);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.scroll-stack-card:first-child {
+  margin-top: 0;
+}
+
+.scroll-stack-card h2 {
+  color: #c770f0;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.scroll-stack-card p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.scroll-stack-end {
+  width: 100%;
+  height: 1px;
+}

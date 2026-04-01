@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import Gallery from "./components/Gallery/Gallery";
 import Projects from "./components/Projects/Projects";
+import Skills from "./components/Skills/Skills";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import {
@@ -54,12 +55,13 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
+          <Route path="/skills" element={<Skills />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
-        <Footer />
       </div>
+      <Footer />
     </Router>
   );
 }
