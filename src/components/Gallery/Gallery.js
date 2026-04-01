@@ -8,7 +8,7 @@ function Gallery() {
     <Container fluid className="gallery-section">
       <Container>
         <h1 className="project-heading" style={{ textAlign: "center", width: "100%" }}>
-          My <strong className="blue">Gallery </strong>
+          My <strong className="purple">Gallery </strong>
         </h1>
         <p style={{ color: "white", textAlign: "center", marginBottom: "40px", fontSize: "1.4em" }}>
           Balling since '05
@@ -25,7 +25,7 @@ function Gallery() {
             clickEffect={true}
             spotlightRadius={400}
             particleCount={12}
-            glowColor="0, 212, 255" // Consistent Blue
+            glowColor="190, 80, 244" // Consistent Purple
             disableAnimations={false}
           />
         </div>

@@ -7,6 +7,7 @@ import githubIcon from "../../Assets/github.png";
 import instagramIcon from "../../Assets/instagram.png";
 
 import Type from "./Type";
+import Home2 from "./Home2";
 
 function Home() {
   return (
@@ -39,7 +40,7 @@ function Home() {
               }}>
                 <Folder
                   size={2.7}
-                  color="#0077b6"
+                  color="#934db5"
                   className="custom-folder"
                   items={[
                     <a href="https://www.linkedin.com/in/omkar-panchawadkar/" target="_blank" rel="noreferrer">
@@ -58,7 +59,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      {/* Social links removed per user request */}
+      <Home2 />
     </section>
   );
 }
